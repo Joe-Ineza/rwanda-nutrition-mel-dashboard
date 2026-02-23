@@ -8,6 +8,7 @@ import plotly.express as px
 import streamlit as st
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, text
+from sqlalchemy.engine import URL
 
 
 st.set_page_config(
@@ -25,12 +26,24 @@ def get_engine():
     db = os.getenv("PGDATABASE", "nutrition_mel")
     user = os.getenv("PGUSER", "postgres")
     pwd = os.getenv("PGPASSWORD", "")
+    sslmode = os.getenv("PGSSLMODE", "require")
+    channel_binding = os.getenv("PGCHANNELBINDING", "prefer")
 
     if not pwd:
         st.error("PGPASSWORD is missing. Add it in .env before launching Streamlit.")
         st.stop()
 
-    return create_engine(f"postgresql+psycopg2://{user}:{pwd}@{host}:{port}/{db}")
+    db_url = URL.create(
+        drivername="postgresql+psycopg2",
+        username=user,
+        password=pwd,
+        host=host,
+        port=int(port),
+        database=db,
+        query={"sslmode": sslmode, "channel_binding": channel_binding},
+    )
+
+    return create_engine(db_url)
 
 
 @st.cache_data(ttl=300)
