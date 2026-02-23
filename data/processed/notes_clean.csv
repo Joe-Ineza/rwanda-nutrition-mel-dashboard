@@ -1,0 +1,80 @@
+note,description
+a,Alternate definition (Numbered footnote contains details)
+b,Age-adjusted estimate
+c,Converted estimate
+d,Adjusted National-Rural to National
+f,Weighted analyses to adjust for unbalanced age distribution using UNPD WPP
+p,Age calculated using century month codes or recovered through seasonal calendar
+q,Oedema data were collected in the survey and considered in the analysis
+r,Height/length modality (standing/lying) was not collected
+s,Oedema data was collected in the survey and not considered in the analysis
+v,Alternate age range
+w,Reduced age range
+,
+1,0-71 months
+2,11 States
+3,2-60 months
+4,22 out of 29 regions
+5,41 out of 45 districts
+6,8 States
+7,85% of total population
+8,9 provinces
+9,Age 0-2 months not covered; unadjusted; excludes Eastern Coastal Belt and Northern Province
+10,"Age 0-5 months not covered, unadjusted for age"
+11,Age 0-5 months not covered; unadjusted
+12,Age interval 0-23 months; unadjusted
+13,Age interval 0-24 months; unadjusted
+14,Age interval 0-35 months; unadjusted
+15,Age interval 0-36 months; unadjusted
+16,Age interval 0-47 months; unadjusted
+17,Age interval 0-48 months; unadjusted
+18,Age interval 0-52 months; unadjusted
+19,Age interval 1-4; unadjusted
+20,Age interval 12-59 months; unadjusted
+21,Age interval 12-60 months; unadjusted
+22,Age interval 24-59 months; unadjusted
+23,Age interval 3-36 months; unadjusted
+24,Age interval 3-36 months; unadjusted; excludes Eastern Coastal Belt and Northern Province
+25,Age interval 36-59 months; unadjusted
+26,Age interval 4-17 months; unadjusted
+27,Age interval 48-59 months; unadjusted
+28,Age interval 48-59 months; unadjusted; England
+29,Age interval 5-47 months; unadjusted; Omani citizens
+30,Age interval 51-59 months; unadjusted
+31,Age interval 6-36 months; unadjusted
+32,Analysis conducted by China CDC and UNICEF China
+33,Bahraini citizens
+34,Dry
+35,"Estimates obtained from Yu DM, Zhao LY, Yang ZY, et al. Comparison of Undernutrition Prevalence of Children under 5 Years in China between 2002 and 2013. Biomed Environ Sci. 2016;29(3):165–176. doi:10.3967/bes2016.021"
+36,Excludes Azad Jammu and Kashmir and Gilgit Baltistan regions.
+37,Harvest period
+38,Health centres (80% coverage)
+39,Jordan settled population
+40,National Surveillance System
+41,National Surveillance System; 25 provinces
+42,National Surveillance System; 26 provinces
+43,National Surveillance System; 26 surveillance sites
+44,National Surveillance System; 7 provinces
+45,National Surveillance System; Kuwaiti citizens
+46,Nutritional Surveillance
+47,Omani citizens
+48,Rain
+49,SVEN
+50,Subtotals
+51,Surveillance data (updated report 11/1/2014)
+52,Surveillance data (updated report 13/5/2014)
+53,Surveillance data - weighted
+54,"The national estimate may be affected by bias due to (i) large variance in sub-national response rates (e.g. household response rate, eligible under 5 children response rate) and (ii) large variance in sub-national item non-response (i.e. missing weights "
+55,Weighted analysis using urban/rural distribution in 2019 MICS
+56,excludes Batanes
+57,excludes Eastern Coastal Belt and Northern Province
+58,excludes Gao and Kidal
+59,excludes Kidal
+60,excludes Northern Province
+61,excludes Sahel
+62,excludes Transnistria
+63,excluding Galápagos Islands
+64,excluding Haute Kotto
+65,excluding Hospital Survey
+66,exludes North Sinai
+67,"overweight using BMI-for-age z-scores; excluding Northwest Territories, Yukon Territory or Nunavut"
