@@ -2,6 +2,9 @@
 
 This project ingests UNICEF/WHO/World Bank JME survey estimates from `jme_survey_estimates.xlsx`, loads cleaned tables into PostgreSQL, and serves a Rwanda-first MEL dashboard in Streamlit.
 
+## Live Demo
+- https://rwanda-nutrition-mel-dashboard-dmzgspm8h3znr7bcvznym6.streamlit.app/
+
 ## Executive Summary
 - **Objective:** Provide a concise MEL view of child nutrition outcomes in Rwanda for monitoring, learning, and decision support.
 - **Questions answered:** latest burden, trend direction, primary vs age-adjusted differences, and stratifier disparities.
